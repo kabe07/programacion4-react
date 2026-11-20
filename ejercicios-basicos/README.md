@@ -17,7 +17,7 @@ Node.js y npm instalados.
 
 ## Ejecutar el proyecto
 
-Abrir una terminal en la carpeta del proyecto y ejecutar:
+Abrir una terminal en la carpeta ejercicios-basicos y ejecutar:
 
 ```bash
 npm install
@@ -26,7 +26,14 @@ npm run dev
 
 Abrir en el navegador la dirección indicada en la terminal.
 
+Para comprobar los tipos y compilar:
+
+```bash
+npm run build
+```
+
 ## Organización
 
-Los ejercicios están en src/ejercicios.
-App.jsx muestra los siete ejercicios en una misma página.
+Los ejercicios están en src, en los archivos Ej1.tsx a Ej7.tsx.
+App.tsx muestra los siete ejercicios en una misma página, cada uno
+con su título.
